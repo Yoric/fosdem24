@@ -11,7 +11,7 @@ A framework for experimenting with analog/digital quantum computing
 # About Pasqal
 
 - We build quantum computers.
-- Also, some code.
+- Also, some quantum code.
 
 [comment]: # (!!!)
 
@@ -46,52 +46,59 @@ TBD
 
 [comment]: # (!!! data-auto-animate)
 
-# Two flavours
+# Digital
 
-- Digital
-    - Circuits built from gates.
-    - Somewhat easy to program.
-
-- Analog
+TBD: Example of a digital circuit.
 
 [comment]: # (!!! data-auto-animate)
 
-# Two flavours
+# Digital
 
-- Digital
-    - Circuits built from gates.
-    - Somewhat easy to program.
-    - But the hardware doesn't really exist.
-
-- Analog
+- A program is a _circuit_.
+- Programming languages exist.
 
 [comment]: # (!!! data-auto-animate)
 
+# Digital
 
-# Two flavours
-
-- Digital
-- Analog
-    - Circuits built from interactions ("hamiltonians").
-    - Can encode _directly_ some interesting problems.
+- A program is a _circuit_.
+- Programming languages exist.
+- ... but the hardware isn't quite there yet.
 
 [comment]: # (!!! data-auto-animate)
 
-# Two flavours
+# Analog
 
-- Digital
-- Analog
-    - Circuits built from interactions ("hamiltonians").
-    - Can encode _directly_ some interesting problems.
-    - Programming is... more complicated.
+TBD: Example of an analog register.
 
 [comment]: # (!!! data-auto-animate)
 
-# Programming with Analog
+# Analog 
 
-TBD: Pulsar
+- A program is geometry + pulses.
+- Can (mostly) run on hardware.
 
-[comment]: # (!!!)
+[comment]: # (!!! data-auto-animate)
+
+# Analog 
+
+- A program is geometry + pulses.
+- Can (mostly) run on hardware.
+- ... how do you program _that_?
+
+[comment]: # (!!! data-auto-animate)
+
+# Analog
+
+TBD: The Hamiltonian from the Qadence slidedes.
+
+[comment]: # (!!! data-auto-animate)
+
+# Analog
+
+TBD: Illustration of a pulse.
+
+[comment]: # (!!! data-auto-animate)
 
 # Qadence
 
@@ -103,3 +110,53 @@ A toolkit designed to:
 - _optimize_ circuits wrt noise and other constraints.
 
 [comment]: # (!!!)
+
+# Digital
+
+TBD: The same circuit, as source code.
+
+(mention blocks)
+
+[comment]: # (!!!)
+
+TBD: Launch simulation, show result.
+
+# Analog
+
+TBD: A circuit for MaxCut/QAOA.
+
+(mention parameters)
+
+[comment]: # (!!!)
+
+TBD: Train the circuit.
+
+(mention differentiation)
+
+[comment]: # (!!!)
+
+TBD: Launch simulation, show result.
+
+[comment]: # (!!!)
+
+# Conclusions
+
+[comment]: # (!!!)
+
+# Conclusions
+
+- A toolkit for exploring quantum circuit design.
+- Because quantum hardware isn't fully there.
+- Not a programming language
+    - ...yet
+
+
+# Outline
+
+FIXME:
+
+- Need to show gates
+- Need to show registers
+- Show execution
+- Fixed / feature parameter
+- Variational parameter
