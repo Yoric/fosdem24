@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>Qadence</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="plugin/highlight/zenburn.min.css" id="highlight-theme"></head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section data-markdown  ><textarea data-template>
+
+# Qadence
+
+A framework for experimenting with analog/digital quantum computing
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+
+# About Pasqal
+
+- We build quantum computers.
+- Also, quantum algorithms.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Quantum computing?
+
+- Compute with qubits, not bits.
+- Still very much open research.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Quantum computing?
+
+- Compute with qubits, not bits.
+- Still very much open research.
+    - Hardware
+    - Algorithms
+    - Compilers
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Why?
+
+- Processors have been using quantum effects for many years.
+- Aiming for the next generation(s) of hardware.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Why?
+
+- Processors have been using quantum effects for many years.
+- Aiming for the next generation(s) of hardware.
+- Faster?
+- Much more energy-efficient?
+- Also, get out of the current hardware dead end.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Two flavours
+
+- Digital
+- Analog
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Digital
+
+![example of a digital circuit](../img/digital.svg)
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Digital
+
+- A program is a _circuit_.
+- Programming languages exist.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Digital
+
+- A program is a _circuit_.
+- Programming languages exist.
+- ... but the hardware isn't quite there yet.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Analog
+
+![the pasqal logo made from individual atoms](../img/register.png)
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Analog 
+
+- A program is geometry + pulses.
+- Can (mostly) run on hardware.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Analog 
+
+- A program is geometry + pulses.
+- Can (mostly) run on hardware.
+- ... how do you program _that_?
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Analog
+
+![\hat{H}(\Omega, \delta, \phi; t) = \sum_{\text{atom } i}\left(
+    \overbrace{
+      \frac{\Omega}{2}\left[\cos(\phi) \hat \sigma^x_i - \sin(\phi) \hat \sigma^y_i \right] 
+    - \delta \hat n_i
+    }^\text{Programmable laser pulse, global interaction}
+    + \underbrace{\sum_{j<i}\frac{C_6}{|\mathbf r_{ij}|^6} \hat n_i \hat n_{j}}_\text{Programmable register, atom-atom interaction}\right)
+](../img/hamiltonian.png)
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Analog
+
+TBD: Illustration of a pulse.
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+# Qadence
+
+A toolkit designed to:
+
+- experiment with Digital + Analog circuits;
+- without having to deal with lasers;
+- simulate or execute circuits;
+- _optimize_ circuits wrt noise and other constraints.
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+# Digital
+
+TBD: A circuit for MaxCut/QAOA.
+
+(mention parameters)
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+TBD: Train the circuit.
+
+(mention differentiation)
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+TBD: Launch simulation, show result.
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+# Conclusions
+
+</textarea></section>
+<section data-markdown ><textarea data-template>
+
+# Conclusions
+
+- A toolkit for exploring quantum circuit design.
+- Because quantum hardware isn't fully there.
+- Not a programming language
+    - ...yet
+
+
+# Outline
+
+FIXME:
+
+- Need to show gates
+- Need to show registers
+- Show execution
+- Fixed / feature parameter
+- Variational paramete
+</textarea></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+Reveal.initialize({
+controls : false,
+markdown : {smartypants: true},
+				hash: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+	</body>
+</html>

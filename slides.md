@@ -11,14 +11,24 @@ A framework for experimenting with analog/digital quantum computing
 # About Pasqal
 
 - We build quantum computers.
-- Also, some quantum code.
+- Also, quantum algorithms.
 
 [comment]: # (!!!)
 
+# Quantum computing?
+
+- Compute with qubits, not bits.
+- Still very much open research.
+
+[comment]: # (!!! data-auto-animate)
 
 # Quantum computing?
 
-TBD
+- Compute with qubits, not bits.
+- Still very much open research.
+    - Hardware
+    - Algorithms
+    - Compilers
 
 [comment]: # (!!! data-auto-animate)
 
@@ -48,7 +58,7 @@ TBD
 
 # Digital
 
-TBD: Example of a digital circuit.
+![example of a digital circuit](../img/digital.svg)
 
 [comment]: # (!!! data-auto-animate)
 
@@ -69,7 +79,7 @@ TBD: Example of a digital circuit.
 
 # Analog
 
-TBD: Example of an analog register.
+![the pasqal logo made from individual atoms](../img/register.png)
 
 [comment]: # (!!! data-auto-animate)
 
@@ -90,13 +100,25 @@ TBD: Example of an analog register.
 
 # Analog
 
-TBD: The Hamiltonian from the Qadence slidedes.
+![\hat{H}(\Omega, \delta, \phi; t) = \sum_{\text{atom } i}\left(
+    \overbrace{
+      \frac{\Omega}{2}\left[\cos(\phi) \hat \sigma^x_i - \sin(\phi) \hat \sigma^y_i \right] 
+    - \delta \hat n_i
+    }^\text{Programmable laser pulse, global interaction}
+    + \underbrace{\sum_{j<i}\frac{C_6}{|\mathbf r_{ij}|^6} \hat n_i \hat n_{j}}_\text{Programmable register, atom-atom interaction}\right)
+](../img/hamiltonian.png)
 
 [comment]: # (!!! data-auto-animate)
 
-# Analog
+# Analog 
 
-TBD: Illustration of a pulse.
+- A program is geometry + pulses.
+- Can (mostly) run on hardware.
+- ... how do you program _that_?
+
+[comment]: # (!!! data-auto-animate)
+
+# Qadence
 
 [comment]: # (!!! data-auto-animate)
 
@@ -112,16 +134,6 @@ A toolkit designed to:
 [comment]: # (!!!)
 
 # Digital
-
-TBD: The same circuit, as source code.
-
-(mention blocks)
-
-[comment]: # (!!!)
-
-TBD: Launch simulation, show result.
-
-# Analog
 
 TBD: A circuit for MaxCut/QAOA.
 
