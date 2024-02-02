@@ -7,26 +7,38 @@
 <title>Qadence</title>
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+<link rel="stylesheet" href="dist/theme/white.css" id="theme">
 		<!-- Theme used for syntax highlighted code -->
 <link rel="stylesheet" href="plugin/highlight/zenburn.min.css" id="highlight-theme"></head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-<section data-markdown  ><textarea data-template>
+<section data-markdown  data-auto-animate><textarea data-template>
 
 # Qadence
 
 A framework for experimenting with analog/digital quantum computing
 
+David Teller, Pasqal
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Qadence
+
+A framework for experimenting with analog/digital quantum computing
+
+David Teller, Pasqal
+
+(not my work)
+
 </textarea></section>
 <section data-markdown  ><textarea data-template>
-
 
 # About Pasqal
 
 - We build quantum computers.
-- Also, quantum algorithms.
+- Also, quantum algorithms & tools.
 
 </textarea></section>
 <section data-markdown  data-auto-animate><textarea data-template>
@@ -45,26 +57,66 @@ A framework for experimenting with analog/digital quantum computing
 - Still very much open research.
     - Hardware
     - Algorithms
-    - Compilers
+    - Compilers & tools
 
 </textarea></section>
 <section data-markdown  data-auto-animate><textarea data-template>
 
-# Why?
+# Why quantum?
 
-- Processors have been using quantum effects for many years.
+- Today's processors fight quantum physics.
 - Aiming for the next generation(s) of hardware.
 
 </textarea></section>
 <section data-markdown  data-auto-animate><textarea data-template>
 
-# Why?
+# Why quantum?
 
-- Processors have been using quantum effects for many years.
+- Today's processors fight quantum physics.
+    - Embrace it!
 - Aiming for the next generation(s) of hardware.
-- Faster?
-- Much more energy-efficient?
-- Also, get out of the current hardware dead end.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Why quantum?
+
+- Today's processors fight quantum physics.
+- Aiming for the next generation(s) of hardware.
+    - Faster?
+    - Much more energy-efficient?
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Why quantum?
+
+- Today's processors fight quantum physics.
+- Aiming for the next generation(s) of hardware.
+    - Also, get out of the current hardware dead end.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Why quantum?
+
+- Today's processors fight quantum physics.
+- Aiming for the next generation(s) of hardware.
+- Also, hype.
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+# Bits
+
+![a bit (represented as a square signal)](../img/signal.png)
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Qubits
+
+![a qubit (represented as a unitary sphere)](../img/sphere.png)
 
 </textarea></section>
 <section data-markdown  data-auto-animate><textarea data-template>
@@ -111,7 +163,7 @@ A framework for experimenting with analog/digital quantum computing
 # Analog 
 
 - A program is geometry + pulses.
-- Can (mostly) run on hardware.
+- Maps naturally to hardware constraints.
 
 </textarea></section>
 <section data-markdown  data-auto-animate><textarea data-template>
@@ -119,7 +171,17 @@ A framework for experimenting with analog/digital quantum computing
 # Analog 
 
 - A program is geometry + pulses.
-- Can (mostly) run on hardware.
+- Maps naturally to hardware constraints.
+    - ...and to some classes of problems.
+    - Can (mostly) run on hardware.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Analog 
+
+- A program is geometry + pulses.
+- Maps naturally to hardware constraints.
 - ... how do you program _that_?
 
 </textarea></section>
@@ -138,68 +200,119 @@ A framework for experimenting with analog/digital quantum computing
 </textarea></section>
 <section data-markdown  data-auto-animate><textarea data-template>
 
-# Analog
+# Analog 
 
-TBD: Illustration of a pulse.
+- A program is geometry + pulses.
+- Maps naturally to hardware constraints.
+- ... how do you program _that_?
 
 </textarea></section>
 <section data-markdown  ><textarea data-template>
 
 # Qadence
 
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Qadence
+
 A toolkit designed to:
 
 - experiment with Digital + Analog circuits;
-- without having to deal with lasers;
 - simulate or execute circuits;
-- _optimize_ circuits wrt noise and other constraints.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Qadence
+
+A toolkit designed to:
+
+- experiment with Digital + Analog circuits;
+    - without having to deal with lasers;
+- simulate or execute circuits;
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Qadence
+
+A toolkit designed to:
+
+- experiment with Digital + Analog circuits;
+- simulate or execute circuits;
+    - _optimize_ circuits wrt constraints.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Qadence
+
+A toolkit designed to:
+
+- experiment with Digital + Analog circuits;
+- simulate or execute circuits;
+- still not my work 😅.
 
 </textarea></section>
 <section data-markdown  ><textarea data-template>
 
-# Digital
+# Demo time!
 
-TBD: A circuit for MaxCut/QAOA.
-
-(mention parameters)
-
-</textarea></section>
-<section data-markdown  ><textarea data-template>
-
-TBD: Train the circuit.
-
-(mention differentiation)
-
-</textarea></section>
-<section data-markdown  ><textarea data-template>
-
-TBD: Launch simulation, show result.
+- [Digital](http://localhost:8888/notebooks/Qadence%20digital.ipynb)
+    - [Solving a problem](http://localhost:8888/notebooks/Qadence%20MaxCut.ipynb)
+- [Analog](http://localhost:8888/notebooks/Qadence%20analog.ipynb)
+    - [Solving a problem](http://localhost:8888/notebooks/Qadence%20curve%20fitting.ipynb)
 
 </textarea></section>
 <section data-markdown  ><textarea data-template>
 
 # Conclusions
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Summary
+
+- A toolkit for exploring quantum circuit design.
+    - On current hardware.
+    - On hypothetical hardware.
+- Circuit optimization.
+- Not a programming language.
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+# Summary
+
+- A toolkit for exploring quantum circuit design.
+    - On current hardware.
+    - On hypothetical hardware.
+- Circuit optimization.
+- Not a programming language
+    - ...yet
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+# Future works
+
+- Libraries
+    - Domain/algorithm enrichments
+- Compilation
+    - Reconfigurable registers.
+    - Arbitrary Hamiltonians.
+- Towards easier programming
 
 </textarea></section>
 <section data-markdown ><textarea data-template>
 
-# Conclusions
+# Thanks
 
-- A toolkit for exploring quantum circuit design.
-- Because quantum hardware isn't fully there.
-- Not a programming language
-    - ...yet
+Actual work by Aleksander Wennersteen, Dominik Seitz, Niklas Heim, João P. Moutinho, Roland Guichard, Vytautas Abramavicius, Gert-Jan Both, Gergana V. Velikova, Anton Quelle, Caroline de Groot, Mario Dagrada, Vincent E. Elfving
+<first.last>@pasqal.com
 
 
-# Outline
-
-FIXME:
-
-- Need to show gates
-- Need to show registers
-- Show execution
-- Fixed / feature parameter
-- Variational paramete
 </textarea></section>
 			</div>
 		</div>

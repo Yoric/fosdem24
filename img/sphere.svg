@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="sphere.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.96505639"
+     inkscape:cx="-35.231102"
+     inkscape:cy="289.62038"
+     inkscape:window-width="1850"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="210 : 148.5 : 1"
+       inkscape:persp3d-origin="105 : 99 : 1"
+       id="perspective37" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#008080;stroke:#000000;stroke-width:0.264583"
+       id="path103"
+       cx="88.193657"
+       cy="123.98746"
+       r="58.699226"
+       inkscape:export-filename="/home/david/Documents/Talks/fosdem24/img/sphere.png"
+       inkscape:export-xdpi="60"
+       inkscape:export-ydpi="60" />
+    <ellipse
+       style="fill:#008080;stroke:#000000;stroke-width:0.267962"
+       id="path105"
+       cx="88.224464"
+       cy="125.86752"
+       rx="58.681549"
+       ry="11.921781"
+       inkscape:export-filename="/home/david/Documents/Talks/fosdem24/img/sphere.png"
+       inkscape:export-xdpi="60"
+       inkscape:export-ydpi="60" />
+    <path
+       style="fill:#008080;stroke:#000000;stroke-width:0.264583"
+       d="m 87.862068,64.79287 v 62.74041"
+       id="path337"
+       inkscape:export-filename="/home/david/Documents/Talks/fosdem24/img/sphere.png"
+       inkscape:export-xdpi="60"
+       inkscape:export-ydpi="60" />
+    <path
+       style="fill:#008080;stroke:#000000;stroke-width:0.266886"
+       d="m 87.861938,127.53312 59.192512,-1.4761"
+       id="path339"
+       inkscape:export-filename="/home/david/Documents/Talks/fosdem24/img/sphere.png"
+       inkscape:export-xdpi="60"
+       inkscape:export-ydpi="60" />
+    <path
+       style="fill:#008080;stroke:#000000;stroke-width:0.248391"
+       d="m 87.857457,127.52618 15.558743,9.72811"
+       id="path341"
+       inkscape:export-filename="/home/david/Documents/Talks/fosdem24/img/sphere.png"
+       inkscape:export-xdpi="60"
+       inkscape:export-ydpi="60" />
+  </g>
+</svg>
