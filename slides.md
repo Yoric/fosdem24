@@ -4,7 +4,9 @@
 
 A framework for experimenting with analog/digital quantum computing
 
-David Teller, Pasqal
+David 'Yoric' Teller
+
+![](../img/pasqal.png)
 
 [comment]: # (!!! data-auto-animate)
 
@@ -12,7 +14,9 @@ David Teller, Pasqal
 
 A framework for experimenting with analog/digital quantum computing
 
-David Teller, Pasqal
+David 'Yoric' Teller
+
+![](../img/pasqal.png)
 
 (not my work)
 
@@ -20,8 +24,18 @@ David Teller, Pasqal
 
 # About Pasqal
 
-- We build quantum computers.
-- Also, quantum algorithms & tools.
+- We build qubits!
+
+[comment]: # (!!! data-auto-animate)
+
+# About Pasqal
+
+- We build qubits!
+    - Quantum computers
+    - Quantum algorithms
+    - Quantum tools
+    - Quantum teaching materials
+    - ...
 
 [comment]: # (!!!)
 
