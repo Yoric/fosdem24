@@ -25,6 +25,10 @@ David Teller, Pasqal
 
 [comment]: # (!!!)
 
+![photo of Pasqal's quantum computer showing lasers and lenses](../img/qpu.jpg)
+
+[comment]: # (!!!)
+
 # Quantum computing?
 
 - Compute with qubits, not bits.
@@ -39,6 +43,18 @@ David Teller, Pasqal
     - Hardware
     - Algorithms
     - Compilers & tools
+    
+
+[comment]: # (!!! data-auto-animate)
+
+# Quantum computing?
+
+- Compute with qubits, not bits.
+- Still very much open research.
+    - Hardware
+    - Algorithms
+    - Compilers & tools
+    - Hype
 
 [comment]: # (!!! data-auto-animate)
 
@@ -118,7 +134,7 @@ David Teller, Pasqal
 
 - A program is a _circuit_.
 - Programming languages exist.
-- ... but the hardware isn't quite there yet.
+    - ... for model hardware.
 
 [comment]: # (!!! data-auto-animate)
 
@@ -140,7 +156,6 @@ David Teller, Pasqal
 - A program is geometry + pulses.
 - Maps naturally to hardware constraints.
     - ...and to some classes of problems.
-    - Can (mostly) run on hardware.
 
 [comment]: # (!!! data-auto-animate)
 
@@ -169,6 +184,7 @@ David Teller, Pasqal
 - A program is geometry + pulses.
 - Maps naturally to hardware constraints.
 - ... how do you program _that_?
+    - no, really?
 
 [comment]: # (!!! data-auto-animate)
 
@@ -190,7 +206,8 @@ A toolkit designed to:
 A toolkit designed to:
 
 - experiment with Digital + Analog circuits;
-    - without having to deal with lasers;
+    - learn how to design a hardware-friendly language;
+    - without dealing with laser pulses.
 - simulate or execute circuits;
 
 [comment]: # (!!! data-auto-animate)
